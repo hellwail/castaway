@@ -1,0 +1,291 @@
+body {
+    width: 1440px;
+    background: #191919;
+    margin: 0 auto;
+    color: #fff;
+    
+}
+
+.header {
+    display: flex;
+    width: 1440px;
+    height: 119px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+    background-color: #191919;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 40px;
+    width: 75px;
+    font-size: 17px;
+}
+
+.nav li:hover {
+    color: #118DA8;
+}
+
+.nav li:last-child {
+    margin-right: 70px;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    width: 1300px;
+    height: 920px;
+    margin: 40px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-img {
+    float: left;
+}
+
+.intro-text {
+    float: right;
+    width: 530px;
+    font-size: 40px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.intro-p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 1px;
+}
+
+.apps img {
+    margin-top: 1px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.str {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.episodes {
+    width: 1300px;
+    height: 1960px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.episodes-header {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes-header h3 {
+    font-size: 54px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.btn {
+    background: #118Da8;
+    border-radius: 6px;
+    width: 180px;
+    height: 51px;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.episodes-item {
+    background: #000;
+    border-radius: 32px;
+    height: 512px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.episodes-img {
+    width: 389px;
+    height: 432px;
+    margin: 40px;
+    margin-right: 53px;
+    border-radius: 10px;
+}
+
+.episodes-tag {
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px;
+    background-color: #191919;
+    border-radius: 6px;
+}
+
+.episodes-num {
+    color: #118DA8;
+}
+
+.episodes-btn {
+    width: 200px;
+}
+
+.episodes-title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 2.56px;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+.episodes-text {
+    line-height: 33px;
+    margin-bottom: 28px;
+}
+
+.host-container {
+    width: 1300px;
+    height: 943px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.host {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.host-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.subscribe {
+    width: 1400px;
+    height: 540px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+    display: flex;
+}
+
+.subscribe-container {
+    height: 387px;
+    width: 1300px;
+    background: #000;
+    border-radius: 32px;
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub{
+    margin-top: 10px;
+}
+
+.subscribe-form {
+    display: grid;
+    gap: 26px;
+    align-items: center;
+}
+
+.input {
+    width: 522px;
+    height: 82px;
+    flex-shrink: 0;
+    background: #191919;
+    border-radius: 6px;
+    border: 1px solid #191919;
+    font-size: 20px;
+    line-height: 28.8px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.reviews{
+    height: 900px;
+    margin-top: 100px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.review-container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.review-item{
+    background: #000;
+    border-radius: 32px;
+    width: 383px;
+    height: 321px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+    padding: 50px;
+    
+    
+}
+
+.grade{
+    height: 27px;
+    width: 150px;
+}
+
+.review-text{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.2px; 
+    
+}
+
+.author{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.footer{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.media{
+    margin-top: 20px;
+}
+
+.footer-nav li{
+    margin-bottom: 8px;
+}
+
+.links li{
+    margin-bottom: 8px;
+}
