@@ -110,6 +110,11 @@ body {
     font-size: 17px;
     color: #fff;
     cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.btn:hover{
+    transform: scale(1.15) translateY(-3px)
 }
 
 .episodes-item {
